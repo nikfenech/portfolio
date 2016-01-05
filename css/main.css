@@ -53,7 +53,7 @@ html{
 
 /* USE: Page headings*/
 h2{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-size: 3em;
 }
 
@@ -67,7 +67,7 @@ h2{
 /*USE: Page subheadings*/
 @media screen and (min-width: 750px) {
 	h3{
-		font-family: 'Montserrat', sans-serif;	
+		font-family: 'Poppins', sans-serif;	
 	}
 }
 
@@ -83,7 +83,7 @@ h4{
 
 a{
 	text-decoration: none;
-	color: #DFDF03;
+	color: #ff3399;
 }
 
 a:hover{
