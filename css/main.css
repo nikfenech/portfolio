@@ -23,12 +23,12 @@ img{
 	
 /*Gradient/Image texture to diffuse background*/
 html{
-	background: rgb(0,1,109); /* Old browsers */
-	background: -moz-linear-gradient(left, rgba(0,1,109,1) 1%, rgba(56,0,61,1) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(left, rgba(0,1,109,1) 1%,rgba(56,0,61,1) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to right, rgba(0,1,109,1) 1%,rgba(56,0,61,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00016d', endColorstr='#38003d',GradientType=1 ); /* IE6-9 */
-	copy
+
+	background-image: linear-gradient(90deg, rgb(52, 152, 219) 0%, rgb(142, 68, 173) 100%);
+	background-image: -moz-linear-gradient(left, rgb(52, 152, 219) 0%, rgb(142, 68, 173) 100%);
+	background-image: -webkit-linear-gradient(left, rgb(52, 152, 219) 0%, rgb(142, 68, 173) 100%);
+	background-image: -o-linear-gradient(left, rgb(52, 152, 219) 0%, rgb(142, 68, 173) 100%);
+	background-image: -ms-linear-gradient(left, rgb(52, 152, 219) 0%, rgb(142, 68, 173) 100%);
 	
 	z-index: -10;
 }
@@ -43,7 +43,7 @@ html{
 	
 	background: url("cbg.png");
 	
-	opacity: 0.3;
+	opacity: 0.1;
 	
 	z-index: -1;
 }
@@ -174,9 +174,11 @@ ul{
 }
 
 .holdme a{
-	color: #111111;
+	
 }
-
+.holdme a:hover{
+	#00ffff;
+}
 .holdme img{
 	display: block;
 	margin: 40px auto;
