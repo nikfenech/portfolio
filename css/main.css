@@ -214,6 +214,10 @@ ul{
 	float: left;
 }
 
+.left a, .right a{
+	color: #FED136;
+}
+
 .nameplate{
 	text-align: center;
 	width: 100%;	
