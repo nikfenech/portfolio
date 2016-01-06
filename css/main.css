@@ -350,7 +350,13 @@ li{
 	background-color: #222233;	
 	color: #FFFFFF;
 }
-/*
+*/
+
+ 
+.pictureof{
+	margin-left: 50px;
+	overflow: hidden;
+}
 
 
 /* IMAGE FORMATTING
