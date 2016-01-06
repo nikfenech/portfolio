@@ -195,10 +195,10 @@ ul{
 }
 
 .holdme a{
-	
+	color: #D81B60;
 }
 .holdme a:hover{
-	#00ffff;
+	color: #F48FB1;
 }
 .holdme img{
 	display: block;
