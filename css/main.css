@@ -218,6 +218,10 @@ ul{
 	color: #FED136;
 }
 
+.left a:hover, .right a:hover{
+	color: #FFFF00;
+}
+
 .nameplate{
 	text-align: center;
 	width: 100%;	
