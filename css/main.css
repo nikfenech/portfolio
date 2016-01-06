@@ -103,7 +103,7 @@ h4{
 
 a{
 	text-decoration: none;
-	color: #FF0068;
+	color: #FF80AB;
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -140,7 +140,7 @@ ul{
 	border: 1px solid rgba(255, 255, 255, .5);
 	border-radius: 4px;
 	
-	background-color: rgba(255, 255, 255, .1);
+	background-color: rgba(255, 255, 255, .2);
 	
 	width: 200px;
 }
