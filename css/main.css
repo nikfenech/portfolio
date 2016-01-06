@@ -218,7 +218,7 @@ ul{
 	color: #FED136;
 }
 
-.left a:hover, .right a:hover{
+.left a:hover, .right a:hover, .left i:hover, .right i:hover{
 	color: #FFFF00;
 }
 
