@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300italic,400');
 
 *{
 	margin: 0;
@@ -167,6 +168,15 @@ p{
 ul{
 	margin: 0 0 0 50px;
 }
+
+.quote{
+	margin: 20px 30px;
+	font-size: .75em;
+	font-family: 'Open-Sans', sans-serif;
+	font-style: italic;
+	font-weight: 300;
+}
+
 
 /* GENERAL
 --------------------------------------------------------*/
@@ -417,7 +427,7 @@ ul{
 	
 	font-family: /*I'll decide later*/ Arial, sans-serif;
 }
-
+/*
 ul {
     -moz-column-count: 2;
     -moz-column-gap: 20px;
@@ -426,7 +436,7 @@ ul {
     column-count: 2;
     column-gap: 20px;
 }
-
+*/
 /*
 li{
 	list-style: none;
