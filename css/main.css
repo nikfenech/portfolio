@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300italic,400');
 
 *{
 	margin: 0;
@@ -23,14 +24,72 @@ img{
 	
 /*Gradient/Image texture to diffuse background*/
 html{
-
+	background-image: linear-gradient(90deg, rgb(52, 152, 219) 24%, rgb(63, 81, 181) 100%);
+	background-image: -moz-linear-gradient(left, rgb(52, 152, 219) 24%, rgb(63, 81, 181) 100%);
+	background-image: -webkit-linear-gradient(left, rgb(52, 152, 219) 24%, rgb(63, 81, 181) 100%);
+	background-image: -o-linear-gradient(left, rgb(52, 152, 219) 24%, rgb(63, 81, 181) 100%);
+	background-image: -ms-linear-gradient(left, rgb(52, 152, 219) 24%, rgb(63, 81, 181) 100%);	
+	
+/*	
+	background-image: linear-gradient(90deg, rgb(0, 84, 127) 36%, rgb(155, 38, 175) 100%);
+	background-image: -moz-linear-gradient(left, rgb(0, 84, 127) 36%, rgb(155, 38, 175) 100%);
+	background-image: -webkit-linear-gradient(left, rgb(0, 84, 127) 36%, rgb(155, 38, 175) 100%);
+	background-image: -o-linear-gradient(left, rgb(0, 84, 127) 36%, rgb(155, 38, 175) 100%);
+	background-image: -ms-linear-gradient(left, rgb(0, 84, 127) 36%, rgb(155, 38, 175) 100%); 
+	
+/*	
+	background-image: linear-gradient(90deg, rgb(11, 121, 194) 30%, rgb(155, 38, 175) 100%);
+	background-image: -moz-linear-gradient(left, rgb(11, 121, 194) 30%, rgb(155, 38, 175) 100%);
+	background-image: -webkit-linear-gradient(left, rgb(11, 121, 194) 30%, rgb(155, 38, 175) 100%);
+	background-image: -o-linear-gradient(left, rgb(11, 121, 194) 30%, rgb(155, 38, 175) 100%);
+	background-image: -ms-linear-gradient(left, rgb(11, 121, 194) 30%, rgb(155, 38, 175) 100%);	
+	
+	/*
+	background-image: linear-gradient(90deg, rgb(32, 149, 242) 29%, rgb(155, 89, 182) 100%);
+	background-image: -moz-linear-gradient(left, rgb(32, 149, 242) 29%, rgb(155, 89, 182) 100%);
+	background-image: -webkit-linear-gradient(left, rgb(32, 149, 242) 29%, rgb(155, 89, 182) 100%);
+	background-image: -o-linear-gradient(left, rgb(32, 149, 242) 29%, rgb(155, 89, 182) 100%);
+	background-image: -ms-linear-gradient(left, rgb(32, 149, 242) 29%, rgb(155, 89, 182) 100%);
+		
+/*
 	background-image: linear-gradient(90deg, rgb(52, 152, 219) 0%, rgb(142, 68, 173) 100%);
 	background-image: -moz-linear-gradient(left, rgb(52, 152, 219) 0%, rgb(142, 68, 173) 100%);
 	background-image: -webkit-linear-gradient(left, rgb(52, 152, 219) 0%, rgb(142, 68, 173) 100%);
 	background-image: -o-linear-gradient(left, rgb(52, 152, 219) 0%, rgb(142, 68, 173) 100%);
 	background-image: -ms-linear-gradient(left, rgb(52, 152, 219) 0%, rgb(142, 68, 173) 100%);
-	
+*/
 	z-index: -10;
+}
+/*Homepage-specific gradient*/
+
+.gradient{
+	position: fixed;
+	top: 0;
+	left: 0;
+	
+	height: 100%;
+	width: 50%;
+/*	
+	background-image: linear-gradient(90deg, rgb(0, 84, 127) 36%, rgb(155, 38, 175) 100%);
+	background-image: -moz-linear-gradient(left, rgb(0, 84, 127) 36%, rgb(155, 38, 175) 100%);
+	background-image: -webkit-linear-gradient(left, rgb(0, 84, 127) 36%, rgb(155, 38, 175) 100%);
+	background-image: -o-linear-gradient(left, rgb(0, 84, 127) 36%, rgb(155, 38, 175) 100%);
+	background-image: -ms-linear-gradient(left, rgb(0, 84, 127) 36%, rgb(155, 38, 175) 100%); 	
+*/	/*
+	background-image: linear-gradient(90deg, rgb(52, 152, 219) 24%, rgb(63, 81, 181) 100%);
+	background-image: -moz-linear-gradient(left, rgb(52, 152, 219) 24%, rgb(63, 81, 181) 100%);
+	background-image: -webkit-linear-gradient(left, rgb(52, 152, 219) 24%, rgb(63, 81, 181) 100%);
+	background-image: -o-linear-gradient(left, rgb(52, 152, 219) 24%, rgb(63, 81, 181) 100%);
+	background-image: -ms-linear-gradient(left, rgb(52, 152, 219) 24%, rgb(63, 81, 181) 100%);
+	
+	*/
+	z-index: -10;	
+}
+
+@media screen and (max-width: 750px) {
+	.gradient{
+		display: none;
+	}
 }
 
 .bgim{
@@ -53,7 +112,7 @@ html{
 
 /* USE: Page headings*/
 h2{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-size: 3em;
 }
 
@@ -67,7 +126,7 @@ h2{
 /*USE: Page subheadings*/
 @media screen and (min-width: 750px) {
 	h3{
-		font-family: 'Montserrat', sans-serif;	
+		font-family: 'Poppins', sans-serif;	
 	}
 }
 
@@ -83,11 +142,13 @@ h4{
 
 a{
 	text-decoration: none;
-	color: #DFDF03;
+	color: #FF80AB;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
 }
 
 a:hover{
-	color: #D50000;
+	color: #FFFF00;
 }
 
 i{
@@ -96,7 +157,7 @@ i{
 }
 
 i:hover{
-	color: #D50000;
+	color: #FFFF00;
 }
 
 p{
@@ -107,6 +168,16 @@ p{
 ul{
 	margin: 0 0 0 50px;
 }
+
+.quote{
+	margin: 20px 30px;
+	font-family: 'Open-Sans', sans-serif;
+	font-style: italic;
+	font-weight: 300;
+}
+
+
+
 
 /* GENERAL
 --------------------------------------------------------*/
@@ -119,7 +190,7 @@ ul{
 	border: 1px solid rgba(255, 255, 255, .5);
 	border-radius: 4px;
 	
-	background-color: rgba(255, 255, 255, .1);
+	background-color: rgba(255, 255, 255, .2);
 	
 	width: 200px;
 }
@@ -174,15 +245,19 @@ ul{
 }
 
 .holdme a{
-	
+	color: #E91E63;
 }
 .holdme a:hover{
-	#00ffff;
+	color: #F06292;
 }
 .holdme img{
-	display: block;
 	margin: 40px auto;
-	width: 85%;
+	/*width: 85%;*/
+}
+
+
+.img-sm{
+	width: 60%;
 }
 
 /* HEADER, NAV
@@ -192,6 +267,25 @@ ul{
 	width: 100%;
 	float: left;
 }
+
+.left a, .right a{
+	color: #FED136;
+}
+
+.left a:hover, .right a:hover{
+	color: #FFFF00;
+}
+
+@media screen and (min-width: 750px) {
+	.right a{
+		color: #E91E63;	
+	}
+	
+	.right a:hover{
+		color: #F06292;		
+	}
+}
+
 
 .nameplate{
 	text-align: center;
@@ -248,12 +342,24 @@ ul{
 					border: 1px solid rgba(255, 255, 255, .5);
 					border-radius: 0 0 4px 4px;
 					
-					background-color: rgba(255, 255, 255, .1);
+					background-color: rgba(255, 255, 255, .6);
 					
 					width: 99%;
 					position: absolute;
 					bottom: -20px;
 					left: 0;
+				}
+				
+				@media screen and (min-width: 750px) {
+					.item{
+						border: 1px solid rgba(11, 11, 11, .5);	
+					}		
+					
+					.itemNameplate{
+						border: none;
+						border-top: 1px solid rgba(11, 11, 11, .5);	
+						width: 100%;
+					}
 				}
 
 				.item{
@@ -269,7 +375,7 @@ ul{
 				}
 					
 				.img{
-					height: 89%;
+					height: 100%;
 					margin: 0 0 0 -62px;
 					z-index: -10;		
 				}	
@@ -297,8 +403,7 @@ ul{
 
 				}	
 
-					.img{
-						height: 85.5%;	
+					.img{	
 					}
 				}	
 }
@@ -327,7 +432,7 @@ ul{
 	
 	font-family: /*I'll decide later*/ Arial, sans-serif;
 }
-
+/*
 ul {
     -moz-column-count: 2;
     -moz-column-gap: 20px;
@@ -336,7 +441,7 @@ ul {
     column-count: 2;
     column-gap: 20px;
 }
-
+*/
 /*
 li{
 	list-style: none;
@@ -350,7 +455,13 @@ li{
 	background-color: #222233;	
 	color: #FFFFFF;
 }
-/*
+*/
+
+ 
+.pictureof{
+	margin-left: 50px;
+	overflow: hidden;
+}
 
 
 /* IMAGE FORMATTING
@@ -371,3 +482,20 @@ li{
 					border: 1px solid rgba(11, 11, 11, .5);
 					border-radius: 4px;
 				}
+
+				
+/* PDF EMBED
+--------------------------------------------------------*/	
+
+iframe{
+	display: block; 
+	width: 300px;
+	height: 200px;
+	margin: 40px auto 40px auto;	
+}
+
+@media screen and (min-width: 750px) {
+	iframe{	
+	 width: 640px; 
+	 height: 480px;
+}	 
