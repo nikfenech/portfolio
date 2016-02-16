@@ -75,14 +75,14 @@ html{
 	background-image: -webkit-linear-gradient(left, rgb(0, 84, 127) 36%, rgb(155, 38, 175) 100%);
 	background-image: -o-linear-gradient(left, rgb(0, 84, 127) 36%, rgb(155, 38, 175) 100%);
 	background-image: -ms-linear-gradient(left, rgb(0, 84, 127) 36%, rgb(155, 38, 175) 100%); 	
-*/	
+*/	/*
 	background-image: linear-gradient(90deg, rgb(52, 152, 219) 24%, rgb(63, 81, 181) 100%);
 	background-image: -moz-linear-gradient(left, rgb(52, 152, 219) 24%, rgb(63, 81, 181) 100%);
 	background-image: -webkit-linear-gradient(left, rgb(52, 152, 219) 24%, rgb(63, 81, 181) 100%);
 	background-image: -o-linear-gradient(left, rgb(52, 152, 219) 24%, rgb(63, 81, 181) 100%);
 	background-image: -ms-linear-gradient(left, rgb(52, 152, 219) 24%, rgb(63, 81, 181) 100%);
 	
-	
+	*/
 	z-index: -10;	
 }
 
@@ -171,7 +171,6 @@ ul{
 
 .quote{
 	margin: 20px 30px;
-	font-size: .9em;
 	font-family: 'Open-Sans', sans-serif;
 	font-style: italic;
 	font-weight: 300;
