@@ -474,8 +474,8 @@ li{
 
 
 				.back{
-					width: 200px;
-					padding: 10px 0;
+					max-width: 300px;
+					padding: 10px;
 					text-align: center;
 					margin: 50px auto;	
 					
