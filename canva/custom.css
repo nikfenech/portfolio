@@ -117,6 +117,7 @@ textarea{
 	border-radius: 4px;
 	color: #FFF;
 	font-size: .75em;
+	box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
 }
 
 
@@ -129,4 +130,5 @@ textarea{
 	top: 139px;
 	right: 126px;
 	font-size: .7em;
+	box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
 }
