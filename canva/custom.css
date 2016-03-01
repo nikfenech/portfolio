@@ -1,12 +1,18 @@
 @import url(https://fonts.googleapis.com/css?family=Arimo:400,700);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Pacifico);
-@import url(https://fonts.googleapis.com/css?family=Quicksand|Crimson+Text|Abril+Fatface);
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:400,700);
+@import url(https://fonts.googleapis.com/css?family=Poppins:400,500);
 
 *{
 	margin: 0;
 	padding: 0;
 	font-family: 'Open Sans', arial, sans-serif;
+}
+
+img{
+	margin: 50px auto;
+	display: block;
 }
 
 h1, h2, h3, h4, h5, p{
@@ -15,12 +21,15 @@ h1, h2, h3, h4, h5, p{
 
 p{
 	margin: 0 0 20px 0;
+	font-size: 1.25em;
 }
 
+
 h2{
-	margin: 100px 0 10px 0;
-	font-family: 'Quicksand', Arial, sans-serif;
-	font-size: 1.5em;
+	margin: 150px 0 20px 0;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+	font-size: 2em;
 }
 
 .container{
