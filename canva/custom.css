@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Arimo:400,700);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url(https://fonts.googleapis.com/css?family=Quicksand|Crimson+Text|Abril+Fatface);
 
 *{
 	margin: 0;
@@ -18,6 +19,8 @@ p{
 
 h2{
 	margin: 100px 0 10px 0;
+	font-family: 'Quicksand', Arial, sans-serif;
+	font-size: 1.5em;
 }
 
 .container{
