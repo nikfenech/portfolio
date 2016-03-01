@@ -30,10 +30,12 @@ p{
 
 
 h2{
-	margin: 150px 0 0 0;
+	margin: 150px 0 50px 0;
 	font-family: 'Poppins', sans-serif;
 	font-weight: 500;
 	font-size: 2em;
+	text-align: center;
+	border-bottom: 1px solid #222;
 }
 
 .container{
@@ -147,4 +149,19 @@ textarea{
 	right: 126px;
 	font-size: .7em;
 	box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+}
+
+.prob{
+	padding: 20px;
+	font-size: 1em;
+	border: 1px solid #222;
+}
+
+.prob h4{
+	margin: 0;
+}
+
+.quote{
+	text-align: center; 
+	font-style: italic;
 }
