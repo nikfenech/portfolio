@@ -24,65 +24,54 @@ img{
 	
 /*Gradient/Image texture to diffuse background*/
 html{
+	/*
 	background-image: linear-gradient(90deg, rgb(52, 152, 219) 24%, rgb(63, 81, 181) 100%);
 	background-image: -moz-linear-gradient(left, rgb(52, 152, 219) 24%, rgb(63, 81, 181) 100%);
 	background-image: -webkit-linear-gradient(left, rgb(52, 152, 219) 24%, rgb(63, 81, 181) 100%);
 	background-image: -o-linear-gradient(left, rgb(52, 152, 219) 24%, rgb(63, 81, 181) 100%);
 	background-image: -ms-linear-gradient(left, rgb(52, 152, 219) 24%, rgb(63, 81, 181) 100%);	
 	
-/*	
+*
 	background-image: linear-gradient(90deg, rgb(0, 84, 127) 36%, rgb(155, 38, 175) 100%);
 	background-image: -moz-linear-gradient(left, rgb(0, 84, 127) 36%, rgb(155, 38, 175) 100%);
 	background-image: -webkit-linear-gradient(left, rgb(0, 84, 127) 36%, rgb(155, 38, 175) 100%);
 	background-image: -o-linear-gradient(left, rgb(0, 84, 127) 36%, rgb(155, 38, 175) 100%);
 	background-image: -ms-linear-gradient(left, rgb(0, 84, 127) 36%, rgb(155, 38, 175) 100%); 
 	
-/*	
+*	
 	background-image: linear-gradient(90deg, rgb(11, 121, 194) 30%, rgb(155, 38, 175) 100%);
 	background-image: -moz-linear-gradient(left, rgb(11, 121, 194) 30%, rgb(155, 38, 175) 100%);
 	background-image: -webkit-linear-gradient(left, rgb(11, 121, 194) 30%, rgb(155, 38, 175) 100%);
 	background-image: -o-linear-gradient(left, rgb(11, 121, 194) 30%, rgb(155, 38, 175) 100%);
 	background-image: -ms-linear-gradient(left, rgb(11, 121, 194) 30%, rgb(155, 38, 175) 100%);	
 	
-	/*
+	*
 	background-image: linear-gradient(90deg, rgb(32, 149, 242) 29%, rgb(155, 89, 182) 100%);
 	background-image: -moz-linear-gradient(left, rgb(32, 149, 242) 29%, rgb(155, 89, 182) 100%);
 	background-image: -webkit-linear-gradient(left, rgb(32, 149, 242) 29%, rgb(155, 89, 182) 100%);
 	background-image: -o-linear-gradient(left, rgb(32, 149, 242) 29%, rgb(155, 89, 182) 100%);
 	background-image: -ms-linear-gradient(left, rgb(32, 149, 242) 29%, rgb(155, 89, 182) 100%);
 		
-/*
-	background-image: linear-gradient(90deg, rgb(52, 152, 219) 0%, rgb(142, 68, 173) 100%);
-	background-image: -moz-linear-gradient(left, rgb(52, 152, 219) 0%, rgb(142, 68, 173) 100%);
-	background-image: -webkit-linear-gradient(left, rgb(52, 152, 219) 0%, rgb(142, 68, 173) 100%);
-	background-image: -o-linear-gradient(left, rgb(52, 152, 219) 0%, rgb(142, 68, 173) 100%);
-	background-image: -ms-linear-gradient(left, rgb(52, 152, 219) 0%, rgb(142, 68, 173) 100%);
 */
-	z-index: -10;
+background: #24C6DC; /* fallback for old browsers */ background: -webkit-linear-gradient(to left, #24C6DC , #514A9D); /* Chrome 10-25, Safari 5.1-6 */ background: linear-gradient(to left, #24C6DC , #514A9D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */         
 }
 /*Homepage-specific gradient*/
 
 .gradient{
 	position: fixed;
 	top: 0;
-	left: 0;
+	left: -500px;
 	
 	height: 100%;
-	width: 50%;
-/*	
-	background-image: linear-gradient(90deg, rgb(0, 84, 127) 36%, rgb(155, 38, 175) 100%);
-	background-image: -moz-linear-gradient(left, rgb(0, 84, 127) 36%, rgb(155, 38, 175) 100%);
-	background-image: -webkit-linear-gradient(left, rgb(0, 84, 127) 36%, rgb(155, 38, 175) 100%);
-	background-image: -o-linear-gradient(left, rgb(0, 84, 127) 36%, rgb(155, 38, 175) 100%);
-	background-image: -ms-linear-gradient(left, rgb(0, 84, 127) 36%, rgb(155, 38, 175) 100%); 	
-*/	/*
-	background-image: linear-gradient(90deg, rgb(52, 152, 219) 24%, rgb(63, 81, 181) 100%);
-	background-image: -moz-linear-gradient(left, rgb(52, 152, 219) 24%, rgb(63, 81, 181) 100%);
-	background-image: -webkit-linear-gradient(left, rgb(52, 152, 219) 24%, rgb(63, 81, 181) 100%);
-	background-image: -o-linear-gradient(left, rgb(52, 152, 219) 24%, rgb(63, 81, 181) 100%);
-	background-image: -ms-linear-gradient(left, rgb(52, 152, 219) 24%, rgb(63, 81, 181) 100%);
+	width: 95%;
+
+
+	background: #514A9D; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #514A9D , #24C6DC); /* Chrome 10-25, Safari 5.1-6 */ 
+	background: linear-gradient(to left, #514A9D , #24C6DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */         
 	
-	*/
+	
+
 	z-index: -10;	
 }
 
@@ -90,21 +79,6 @@ html{
 	.gradient{
 		display: none;
 	}
-}
-
-.bgim{
-	width: 100%;
-	height: 100%;
-	
-	position: fixed;
-	top: 0;
-	left: 0;
-	
-	background: url("cbg.png");
-	
-	opacity: 0.1;
-	
-	z-index: -1;
 }
 
 /* TYPESETTING
