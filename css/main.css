@@ -141,9 +141,7 @@ ul{
 				}
 					
 				.item img{
-					height: 100%;
-					opacity: 0.5;
-					
+					height: 100%;			
 				}
 
 
@@ -209,6 +207,7 @@ ul{
 }
 
 .holdme img{
+	display: block;
 	margin: 40px auto;
 	max-width: 80%;
 }
