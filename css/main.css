@@ -78,15 +78,6 @@ ul{
 }
 
 
-
-.dipity{
-	display: block;
-	margin: 20% auto;
-	width: 200px;
-	height: 200px;
-	
-}
-
 .about{
 	width:307px;
 	margin: 0 auto;
@@ -181,9 +172,18 @@ ul{
 					background-color: rgba(255, 255, 255, .6);
 				}
 					
-				.item img{
+				.heredit{
 					height: 100%;
 				}
+				
+				.dipity{
+					display: block;
+					margin: 15% auto;
+					width: 200px;
+					height: 200px;
+					
+				}
+
 
 
 .pagelink{
