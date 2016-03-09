@@ -59,8 +59,12 @@ p{
 	margin-bottom: 20px;
 }
 
+.about p{
+	color: #FFF;
+}
+
 ul{
-	margin: 0 0 0 50px;
+	margin: 0 0 0 0px;
 }
 
 /* GENERAL
@@ -80,9 +84,25 @@ ul{
 
 
 .about{
-	width:307px;
+	width:507px;
 	margin: 0 auto;
 	padding: 150px 0 0 0;
+	height: 1px;
+	visibility: hidden;
+	opacity: 0;
+	transition: visibility 0s, opacity 2s, height 1s linear;
+	
+}
+
+.visible{
+  visibility: visible;
+  opacity: 1;
+  height: 500px;
+}
+
+button{
+	background: none;
+	border: none;
 }
 
 
@@ -223,6 +243,23 @@ ul{
 .half{
 	width: 50%;
 	float: left;
+}
+
+ul{
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+	text-align: center;
+}
+li{
+	border: 1px solid #FFF;
+	padding: 10px 0;
+}
+
+.about ul{
+	color: #FFF;
+	list-style-type: none;
+	
 }
 
 /* PORTFOLIO PAGE POSITIONING
