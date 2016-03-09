@@ -86,18 +86,18 @@ ul{
 .about{
 	width:507px;
 	margin: 0 auto;
-	padding: 150px 0 0 0;
 	height: 1px;
-	visibility: hidden;
-	opacity: 0;
-	transition: visibility 0s, opacity 2s, height 1s linear;
-	
+	overflow: hidden;
+	/*visibility: hidden;
+	opacity: 0;*/
+	transition: visibility 0s, opacity 3s linear;
+	transition:height 1s linear	
 }
 
 .visible{
   visibility: visible;
   opacity: 1;
-  height: 500px;
+  height: 700px;
 }
 
 button{
@@ -307,7 +307,7 @@ li{
 	width: 100px;
 	padding: 10px;
 	text-align: center;
-	margin: 20px auto 50px auto;
+	margin: 100px auto;
 	border: 1px solid #2c2c2c;
 	border-radius: 4px;
 }
