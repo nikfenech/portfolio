@@ -97,12 +97,19 @@ ul{
 .visible{
   visibility: visible;
   opacity: 1;
-  height: 700px;
+  height: 750px;
 }
 
 button{
 	background: none;
 	border: none;
+	font-size: 1em;
+	color: #FFF;
+	font-family: 'Open Sans', sans-serif;
+}
+
+button:hover{
+	color: #DF4000;
 }
 
 
