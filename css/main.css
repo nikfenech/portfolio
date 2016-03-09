@@ -217,7 +217,9 @@ ul{
 	}
 }
 
-
+.image-row{
+	clear: both;
+}
 .half{
 	width: 50%;
 	float: left;
