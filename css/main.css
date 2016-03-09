@@ -56,6 +56,7 @@ i:hover{
 }
 
 p{
+	margin-bottom: 20px;
 }
 
 ul{
@@ -217,6 +218,11 @@ ul{
 }
 
 
+.half{
+	width: 50%;
+	float: left;
+}
+
 /* PORTFOLIO PAGE POSITIONING
 --------------------------------------------------------*/
 
@@ -256,6 +262,19 @@ ul{
 
 .img-sm{
 	width: 60%;
+}
+
+.back{
+	width: 100px;
+	padding: 10px;
+	text-align: center;
+	margin: 20px auto 50px auto;
+	border: 1px solid #2c2c2c;
+	border-radius: 4px;
+}
+
+.back:hover{
+	border: 1px solid #DF4000;
 }
 
 /* GHOST
