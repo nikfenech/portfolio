@@ -26,6 +26,8 @@ a{
 
 a:hover{
 	color: #DF4000;
+	
+	font-weight: bold;
 }
 
 .nameplate a{
@@ -147,6 +149,7 @@ li{
 	font-family: 'Open Sans', sans-serif;
 	cursor: pointer; 
 	cursor: hand; 
+	font-weight: bold;
 }
 
 .about-button:hover{
