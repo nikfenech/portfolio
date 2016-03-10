@@ -265,17 +265,16 @@ li{
 .tag-row{
 	position: absolute;
 	top: 5px;
-	right: 5px;
+	left: 5px;
 }
 
 .tag{
-	border-radius: 4px;
 	background-color: #222;
 	color: #fff;
 	font-size: .7em;
-	padding: 3px 5px;
-	margin-left: 5px;
-	float: left;
+	padding: 5px;
+	margin-bottom: 5px;
+	/*float: left;*/
 }
 				
 /* INTERNAL PAGES
