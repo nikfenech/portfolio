@@ -309,17 +309,26 @@ li{
 .holdme{
 	height: 100%;
 	width: 95%;	
-	background-color: #FFFFFF;		
-	padding: 20px 0;	
-
+	background-color: #FFFFFF;
 	display: block;
 	margin: 0 auto;
+	font-size: .7em;
+}
+
+.headline{
+	max-width: 100%;
+	text-align: center;
+	background:  linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url("paven.png");
+	padding: 50px 0;
+	font-size: 4em;
+	margin: 0 0 50px 0;
+	font-family: 'Open Sans', sans-serif;
 }
 
 @media screen and (min-width: 830px) {
 	.holdme{
-		max-width: 80%;
-		padding: 100px 0 0 0;
+		max-width: 70%;
+		font-size: 1em;
 	}
 }
 
@@ -346,7 +355,7 @@ li{
 	color: #2c2c2c;
 	margin: 0 100px 80px 100px;
 }
-
+/*
 .holdme h2{
 	font-size: 1.5em;
 	border-bottom: 2px solid #2c2c2c;
@@ -358,7 +367,7 @@ li{
 		font-size: 3em;
 	}
 }	
-
+*/
 .holdme h3{
 	margin: 80px 0;
 }
