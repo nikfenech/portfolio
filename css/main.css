@@ -74,6 +74,7 @@ li{
 
 .about li{
 	margin-bottom: 10px;
+	font-size: .7em;
 }
 
 
@@ -106,7 +107,7 @@ li{
 
 
 .about{
-	width:507px;
+	width:90%;
 	margin: 0 auto;
 	height: 1px;
 	overflow: hidden;
@@ -116,6 +117,22 @@ li{
 	transition:height 1s linear	
 }
 
+				@media screen and (min-width: 520px) {
+					.about{
+						width: 75%
+					}
+				}
+				
+				@media screen and (min-width: 830px) {
+					.about{
+						width: 507px;
+					}
+					
+					about.li{
+						1em;
+					}
+				}
+				
 .visible{
   visibility: visible;
   opacity: 1;
@@ -136,6 +153,14 @@ li{
 	color: #DF4000;
 }
 
+.about-name{
+	font-size: 2em;
+	color: #FFF;
+	text-align: center;
+}
+	@media screen and (min-width: 520px) {
+	
+	}
 
 
 /* HEADER, NAV
@@ -236,7 +261,22 @@ li{
 					height: 200px;
 					
 				}
+				
+.tag-row{
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
 
+.tag{
+	border-radius: 4px;
+	background-color: #222;
+	color: #fff;
+	font-size: .5em;
+	padding: 3px 5px;
+	margin-left: 5px;
+	float: left;
+}
 				
 /* INTERNAL PAGES
 --------------------------------------------------------*/
@@ -349,30 +389,33 @@ li{
 
 /* GHOST
 ------------------------------------------------------*/
-
-@keyframes example {
-    from {margin: 50px auto 0 auto;}
-    to {margin: 80px auto 0 auto;}
-}
-
-.cont{
-	margin: 50px auto 0 auto;
-	max-width: 50px;
-	
-	animation-name: example;
-    animation-duration: 3s;	
-	animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-
 .ghost{
 	border-top-left-radius: 100%;
 	border-top-right-radius: 100%;
 	width: 100px;
 	height: 100px;
 	background-color: white;
-	margin: 0 auto;
 }
+
+	@keyframes example {
+		from {top: 10px;}
+		to {top: 80px;}
+	}
+	
+	.cont{
+		width: 50px;
+		position: absolute;
+		top: 10px;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+		
+		animation-name: example;
+		animation-duration: 3s;	
+		animation-iteration-count: infinite;
+		animation-direction: alternate;
+	}
+
 
 .tail{
 	width: 100px;
