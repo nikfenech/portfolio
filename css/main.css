@@ -7,24 +7,13 @@
 	
 html, body{
 	width: 100%;
-	/*height: auto;*/
+	height: 100%;
 	
 	color: #222222;
 	font-family: 'Open Sans', sans-serif;
 	background-color: #2c2c2c;
 }
 
-.txt-white{
-	color: #FFF;
-}
-
-.toplinks a, .toplinks p{
-	color: #FFF;
-}
-
-.toplinks a:hover{
-	color: #DF4000;
-}
 
 /* TYPESETTING
 --------------------------------------------------------*/
@@ -66,6 +55,39 @@ p{
 ul{
 	margin: 0 0 0 0px;
 }
+ul{
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+	text-align: center;
+}
+li{
+	border: 1px solid #FFF;
+	padding: 10px 0;
+}
+
+.about ul{
+	color: #FFF;
+	list-style-type: none;
+	
+}
+
+.about li{
+	margin-bottom: 10px;
+}
+
+
+.txt-white{
+	color: #FFF;
+}
+
+.toplinks a, .toplinks p{
+	color: #FFF;
+}
+
+.toplinks a:hover{
+	color: #DF4000;
+}
 
 /* GENERAL
 --------------------------------------------------------*/
@@ -88,8 +110,8 @@ ul{
 	margin: 0 auto;
 	height: 1px;
 	overflow: hidden;
-	/*visibility: hidden;
-	opacity: 0;*/
+	visibility: hidden;
+	opacity: 0;
 	transition: visibility 0s, opacity 3s linear;
 	transition:height 1s linear	
 }
@@ -97,10 +119,10 @@ ul{
 .visible{
   visibility: visible;
   opacity: 1;
-  height: 750px;
+  height: 850px;
 }
 
-button{
+.about-button{
 	background: none;
 	border: none;
 	font-size: 1em;
@@ -108,7 +130,7 @@ button{
 	font-family: 'Open Sans', sans-serif;
 }
 
-button:hover{
+.about-button:hover{
 	color: #DF4000;
 }
 
@@ -160,8 +182,9 @@ button:hover{
 		}
 	}
 
-/* PORTFOLIO ITEMS
+/* PORTFOLIO SECTION
 --------------------------------------------------------*/
+
 .portfolio{
   width: 100%;
   height: 100%;
@@ -212,8 +235,11 @@ button:hover{
 					
 				}
 
+				
+/* INTERNAL PAGES
+--------------------------------------------------------*/
 
-
+/*
 .pagelink{
 	text-align: center;
 	margin: 20px;
@@ -225,7 +251,7 @@ button:hover{
 	background-color: rgba(255, 255, 255, .2);
 	
 	width: 200px;
-}
+}*/
 
 .holdme{
 	height: 100%;
@@ -244,33 +270,19 @@ button:hover{
 	}
 }
 
-.image-row{
-	clear: both;
-}
-.half{
-	width: 50%;
-	float: left;
-}
-
-ul{
-    -moz-column-count: 2;
-    -webkit-column-count: 2;
-    column-count: 2;
+.back{
+	width: 100px;
+	padding: 10px;
 	text-align: center;
-}
-li{
-	border: 1px solid #FFF;
-	padding: 10px 0;
-}
-
-.about ul{
-	color: #FFF;
-	list-style-type: none;
-	
+	margin: 100px auto;
+	border: 1px solid #2c2c2c;
+	border-radius: 4px;
 }
 
-/* PORTFOLIO PAGE POSITIONING
---------------------------------------------------------*/
+.back:hover{
+	border: 1px solid #DF4000;
+}
+
 
 .holdme p, .holdme ul{
 	padding: 0 20%;
@@ -305,23 +317,33 @@ li{
 	max-width: 80%;
 }
 
-
-.img-sm{
-	width: 60%;
+.image-row{
+	clear: both;
 }
 
-.back{
-	width: 100px;
-	padding: 10px;
-	text-align: center;
-	margin: 100px auto;
-	border: 1px solid #2c2c2c;
-	border-radius: 4px;
+.half{
+	width: 50%;
+	float: left;
 }
 
-.back:hover{
-	border: 1px solid #DF4000;
-}
+				
+	/* PDF EMBED
+	--------------------------------------------------------*/	
+
+	iframe{
+		display: block; 
+		width: 300px;
+		height: 200px;
+		margin: 40px auto 40px auto;	
+	}
+
+	@media screen and (min-width: 750px) {
+		iframe{	
+		 width: 640px; 
+		 height: 480px;
+	}	
+
+
 
 /* GHOST
 ------------------------------------------------------*/
@@ -373,20 +395,4 @@ li{
 	float: left;
 	margin: 30% 10%;
 }
-
-				
-/* PDF EMBED
---------------------------------------------------------*/	
-
-iframe{
-	display: block; 
-	width: 300px;
-	height: 200px;
-	margin: 40px auto 40px auto;	
-}
-
-@media screen and (min-width: 750px) {
-	iframe{	
-	 width: 640px; 
-	 height: 480px;
-}	 
+ 
