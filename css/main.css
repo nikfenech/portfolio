@@ -172,6 +172,12 @@ li{
 	.profile-pic{
 		float: left;
 		margin: 5px 20px 0 0;
+		width: 100px;
+	}
+	
+	.social{
+		margin: 0 20px -6px 0;
+		width: 25px;
 	}
 
 /* HEADER, NAV
@@ -317,13 +323,22 @@ li{
 .headline{
 	max-width: 100%;
 	text-align: center;
-	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("px_by_Gre3g.png");
 	padding: 50px 0;
 	font-size: 4em;
 	margin: 0 0 50px 0;
 	font-family: 'Open Sans', sans-serif;
 	color: #fff;
+	font-weight: bold;
 }
+/*
+.serendipity{ 
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("bokeh.jpg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+*/
 
 @media screen and (min-width: 830px) {
 	.holdme{
