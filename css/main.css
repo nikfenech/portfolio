@@ -62,6 +62,7 @@ p{
 ul{
 	margin: 0 0 0 0px;
 }
+
 ul{
     -moz-column-count: 2;
     -webkit-column-count: 2;
@@ -70,11 +71,11 @@ ul{
 }
 li{
 	border: 1px solid #fff;
-	border: 1px solid #fff;
 	padding: 10px 0;
 	margin-bottom: 10px;
 	list-style-type: none;
 	font-size: .7em;
+	color: #FFF;
 }
 			
 	@media screen and (min-width: 830px) {		
@@ -82,15 +83,7 @@ li{
 						1em;
 					}
 	}
-	
-.about ul{
-	color: #FFF;
-	
-}
 
-.about li{
-	border: 1px solid #FFF;
-}
 
 
 .txt-white{
@@ -321,22 +314,24 @@ li{
 .holdme{
 	height: 100%;
 	width: 95%;	
-	/*background-color: #FFFFFF;*/
+	background-color: #FFF;
 
 	display: block;
 	margin: 0 auto;
 	font-size: .7em;
+	color: #2c2c2c;
 }
 
 .headline{
 	max-width: 100%;
-	border-left: 10px solid #DF4000;
+	/*border-left: 10px solid #DF4000;*/
 
 	font-size: 4em;
-	margin: 0 20% 50px 20%;
-	padding: 100px 0 0 50px;
+	margin: 50px 0 50px 0;
+	padding: 100px 0 0 0;
 	font-family: 'Open Sans', sans-serif;
-	color: #fff;
+	text-align: center;
+	color: #2c2c2c;
 	font-weight: bold;
 }
 /*
@@ -353,6 +348,7 @@ li{
 	.holdme{
 		max-width: 70%;
 		font-size: 1em;
+		
 	}
 }
 
@@ -361,8 +357,10 @@ li{
 	padding: 10px;
 	text-align: center;
 	margin: 100px auto;
-	/*border: 1px solid #2c2c2c;*/
-	border: 1px solid #FFF;
+	border: 1px solid #2c2c2c;
+}
+.holdme a{
+	color: #2c2c2c;
 }
 
 .back:hover{
@@ -373,7 +371,12 @@ li{
 .holdme p, .holdme ul{
 	padding: 0 20%;
 	/*color: #2c2c2c;*/
-	color: #FFF;
+	color: #2c2c2c;
+}
+
+.holdme li{
+	border: 1px solid #2c2c2c;
+	color: #2c2c2c;
 }
 
 .holdme h2, .holdme h3, .holdme h4{
@@ -401,16 +404,18 @@ li{
 .holdme img{
 	display: block;
 	margin: 40px auto;
-	max-width: 80%;
+	max-width: 100%;
 }
 
 .image-row{
+	margin: 0 20%;
 	clear: both;
 }
 
 .half{
-	width: 50%;
+	width: 40%;
 	float: left;
+	padding: 0 auto;
 }
 
 				
