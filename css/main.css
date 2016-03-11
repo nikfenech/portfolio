@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Poppins|Open+Sans);
 
 *{
 	margin: 0;
@@ -315,25 +315,24 @@ li{
 	height: 100%;
 	width: 95%;	
 	background-color: #FFF;
-
+	padding: 150px 0 0 0;
 	display: block;
 	margin: 0 auto;
 	font-size: .7em;
 	color: #2c2c2c;
 }
-
+/*
 .headline{
 	max-width: 100%;
-	/*border-left: 10px solid #DF4000;*/
 
 	font-size: 4em;
 	margin: 50px 0 50px 0;
-	padding: 100px 0 0 0;
+	padding: 150px 0 0 0;
 	font-family: 'Open Sans', sans-serif;
 	text-align: center;
 	color: #2c2c2c;
 	font-weight: bold;
-}
+}*/
 /*
 .serendipity{ 
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("bokeh.jpg") no-repeat center center fixed; 
@@ -391,6 +390,20 @@ li{
 	text-align: center;
 	color: #2c2c2c;
 	margin: 0 100px 80px 100px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.holdme h2{
+	font-size: 3em;
+	border-bottom: 2px solid #2c2c2c;
+	padding-bottom: 20px;
+}
+
+@media screen and (min-width: 750px) {
+	.holdme h2{
+		font-size: 4em;
+		margin: 0 0 20px 0;
+	}
 }
 /*
 .holdme h2{
@@ -550,7 +563,7 @@ li{
   .one-third.column               { width: 30.6666666667%; }
   .two-thirds.column              { width: 65.3333333333%; }
 
-  .one-half.column                { width: 48%; }
+  .one-half.column                { width: 48%; margin: 0 auto; }
 .container:after,
 .row:after,
 .u-cf {
