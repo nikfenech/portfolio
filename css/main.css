@@ -363,6 +363,10 @@ li{
 	color: #2c2c2c;
 }
 
+.holdme a:hover{
+	color: #DF4000
+}
+
 .back:hover{
 	border: 1px solid #DF4000;
 }
@@ -377,6 +381,10 @@ li{
 .holdme li{
 	border: 1px solid #2c2c2c;
 	color: #2c2c2c;
+}
+.holdme li:hover{
+	border: 1px solid #FD4000;
+	color: #FD4000;
 }
 
 .holdme h2, .holdme h3, .holdme h4{
@@ -404,7 +412,7 @@ li{
 .holdme img{
 	display: block;
 	margin: 40px auto;
-	max-width: 100%;
+	max-width: 80%;
 }
 
 .image-row{
@@ -491,3 +499,13 @@ li{
 	margin: 30% 10%;
 }
  
+
+/* STOLEN FROM SKELETON.CSS @ http://getskeleton.com/
+------------------------------------------------------*/
+ 
+.container:after,
+.row:after,
+.u-cf {
+  content: "";
+  display: table;
+  clear: both; }
