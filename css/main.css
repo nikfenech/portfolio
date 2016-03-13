@@ -198,7 +198,7 @@ li{
 .left{
 	color: #FFF;
 	width: 100%;
-	min-height: 60%;
+	height: 100vh;
 	text-align: center;
 	padding: 100px 0 0 0;
 }
@@ -336,7 +336,6 @@ li{
 }*/
 
 .holdme{
-	height: 100%;
 	width: 95%;	
 	background-color: #FFF;
 	padding: 150px 0 0 0;
@@ -375,6 +374,7 @@ li{
 		
 	}
 }
+
 
 .back{
 	width: 100px;
