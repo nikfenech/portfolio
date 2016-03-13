@@ -13,9 +13,7 @@ html, body{
 	color: #fff;
 	font-family: 'Open Sans', sans-serif;
 	background-color: #2c2c2c;
-	
-	
-		background: linear-gradient(rgba(44, 44, 44, 0.5), rgba(44, 44, 44, 1)), url(px_by_Gre3g.png);
+	background: linear-gradient(rgba(44, 44, 44, 0.5), rgba(44, 44, 44, 1)), url(px_by_Gre3g.png);
 }
 
 
@@ -119,7 +117,7 @@ li{
 
 .about{
 	width:90%;
-	margin: 0 auto;
+	margin: -300px auto 0 auto;
 	height: 1px;
 	overflow: hidden;
 	visibility: hidden;
@@ -236,8 +234,20 @@ li{
   width: 100%;
   height: 100%;
 }
-	
-				.item{						
+					
+.heredit{
+	min-height: 100%;
+	width: 100%;
+}
+
+				
+.dipity{
+	display: block;
+	margin: 5% auto;
+	width: 200px;
+	height: 200px;	
+}	
+				.item, .item-plus{						
 					position: relative;					
 					width: 100%;
 					height: 50%;
@@ -250,11 +260,23 @@ li{
 					.item{
 						width: 50%;
 					}
+					
+					.item-plus{
+							width: 100%;
+					}
+					
+					.heredit{
+						width: 100%;
+					}
 				}
 				
 				@media screen and (min-width: 830px) {
 					.item{
 						width: 33.3%;
+					}
+					
+					.item-plus{
+						width: 66.6%;
 					}
 				}
 				
@@ -269,18 +291,7 @@ li{
 					
 					background-color: rgba(255, 255, 255, .6);
 				}
-					
-				.heredit{
-					height: 100%;
-				}
-				
-				.dipity{
-					display: block;
-					margin: 15% auto;
-					width: 200px;
-					height: 200px;
-					
-				}
+
 				
 .tag-row{
 	position: absolute;
@@ -361,6 +372,7 @@ li{
 	margin: 100px auto;
 	border: 1px solid #2c2c2c;
 }
+
 .holdme a{
 	color: #2c2c2c;
 }
