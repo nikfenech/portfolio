@@ -17,7 +17,7 @@
 		
 	</head>
 	<body>
-		<div class="holdme">
+		<div class="holdme" style="position: relative">
 		
 			<h2>Serendipity</h2>
 						
@@ -26,32 +26,32 @@
 
 			<p>Below you can see some images of the interface.</p>
 	
-			<div class="row">
-				<div class="one-third column"><img src="img/serendipity_profile.png" href="img/serendipity_profile.png" id="img1"></img></div>
+			<div class="row"  style="position: relative">
+				<div class="one-third column"  style="position: relative"><img src="img/serendipity_profile.png" href="img/serendipity_profile.png" id="img1"></img></div>
 				
 				<script type="text/javascript">
 						$(document).ready(function() {
 						  Tipped.create(
 							'#img1', 
-							'<img src="img/serendipity_profile.png" style="position: fixed; left: 0; top: 0;"/>'
+							'<img src="img/serendipity_profile.png" class="tooltip-img"/>'
 							);				
 						});
 						</script>					
-				<div class="one-third column"><img src="img/serendipity_user_pref.png"  href="img/serendipity_user_pref.png"  id="img2"></img></div>
+				<div class="one-third column"  style="position: relative"><img src="img/serendipity_user_pref.png"  href="img/serendipity_user_pref.png"  id="img2"></img></div>
 				<script type="text/javascript">
 					$(document).ready(function() {
 					  Tipped.create(
 						'#img2', 
-						'<img src="img/serendipity_user_pref.png" style="position: fixed; left: 0; top: 0;"></img>'
+						'<img src="img/serendipity_user_pref.png" class="tooltip-img"></img>'
 						);
 					});
 				</script>					
-				<div class="one-third column"><img src="img/serendipity_login.png" href="img/serendipity_login.png" id="img3"></img></div>
+				<div class="one-third column"  style="position: relative"><img src="img/serendipity_login.png" href="img/serendipity_login.png" id="img3"></img></div>
 			<script type="text/javascript">
 				$(document).ready(function() {
 					Tipped.create(
 						'#img3', 
-						'<img src="img/serendipity_login.png" style="position: fixed; left: 0; top: 0;"/>'
+						'<img src="img/serendipity_login.png" class="tooltip-img"/>'
 					);				
 				});
 		</script>	

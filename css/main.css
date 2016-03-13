@@ -581,3 +581,14 @@ li{
   .right{
 	  float: right;
   }
+  
+  
+  
+  
+  .tooltip-img{
+	  max-height: 100%;
+	  border: 10px solid #2c2c2c;
+	  position: fixed;
+	  left: 0;
+	  top: 0;
+  }
