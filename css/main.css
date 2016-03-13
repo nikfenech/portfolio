@@ -183,7 +183,7 @@ li{
 	}
 	
 	.social{
-		margin: 0 20px -6px 0;
+		margin: 0 20px 0 0;
 		width: 25px;
 
 	}
@@ -451,7 +451,6 @@ li{
 	margin: 40px auto;
 	max-width: 80%;
 }
-
 				
 	/* PDF EMBED
 	--------------------------------------------------------*/	
@@ -473,56 +472,54 @@ li{
 
 /* GHOST
 ------------------------------------------------------*/
-.ghost{
-	border-top-left-radius: 100%;
-	border-top-right-radius: 100%;
-	width: 100px;
-	height: 100px;
-	background-color: white;
-}
-
-	@keyframes example {
-		from {top: 10px;}
-		to {top: 80px;}
-	}
-	
-	.cont{
-		width: 50px;
-		position: absolute;
-		top: 10px;
-		left: 50px;
-		
-		animation-name: example;
-		animation-duration: 3s;	
-		animation-iteration-count: infinite;
-		animation-direction: alternate;
-	}
-
-
-.tail{
-	width: 100px;
-	height: 50px;
-	
-	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* IE10+ */
-	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
-}
-
-.eye{
-	border-radius: 100%;
-	background-color: black;
-	
-	width: 10%;
-	height: 10%;
-	
-	float: left;
-	margin: 30% 10%;
-}
- 
+								@keyframes example {
+									from {top: 10px;}
+									to {top: 80px;}
+								}
+									
+								.div1{
+									width: 200px;
+									margin: 0 auto;
+									position: absolute;
+									top: 10px;
+									left: 0;
+									right: 0;
+									animation-name: example;
+									animation-duration: 3s;	
+									animation-iteration-count: infinite;
+									animation-direction: alternate;									
+								}
+								
+								.div2{
+									border-top-left-radius: 100%;
+									border-top-right-radius: 100%;
+									width: 200px;
+									height: 200px;
+									background-color: white;
+								}
+								
+								.div3{
+									height: 100px;
+									width: 200px;
+									background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+									background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+									background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+									background: -o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
+									background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* IE10+ */
+									background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* W3C */
+									filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+								}
+								
+								.div4{
+									border-radius: 100%;
+									background-color: black;
+									
+									width: 10%;
+									height: 10%;
+									
+									float: left;
+									margin: 30% 10%;								
+								}
 
 /* STOLEN FROM SKELETON.CSS @ http://getskeleton.com/
 ------------------------------------------------------*/
