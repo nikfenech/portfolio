@@ -198,7 +198,7 @@ li{
 .left{
 	color: #FFF;
 	width: 100%;
-	height: 100vh;
+	min-height: 100%;
 	text-align: center;
 	padding: 100px 0 0 0;
 }
