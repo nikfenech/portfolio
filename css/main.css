@@ -91,6 +91,10 @@ li{
 	color: #FFF;
 }
 
+.txt-orange{
+	color: #FD4000;
+}
+
 .toplinks a, .toplinks p{
 	color: #FFF;
 }
@@ -116,14 +120,14 @@ li{
 
 
 .about{
-	width:90%;
-	margin: -300px auto 0 auto;
+	width: 90%;
+	margin: 0 auto;
 	height: 1px;
 	overflow: hidden;
 	visibility: hidden;
 	opacity: 0;
 	transition: visibility 0s, opacity 3s linear;
-	transition:height 1s linear	
+	transition:height 1s linear;
 }
 
 				@media screen and (min-width: 520px) {
@@ -140,9 +144,9 @@ li{
 				}
 				
 .visible{
-  visibility: visible;
-  opacity: 1;
-  height: 950px;
+	visibility: visible;
+	opacity: 1;
+	height: 950px;
 }
 
 .about-button{
@@ -156,7 +160,8 @@ li{
 	font-weight: bold;
 }
 
-.about-button:hover{
+.about-button:hover,
+.about-button:active{
 	color: #DF4000;
 }
 
@@ -165,6 +170,7 @@ li{
 	color: #FFF;
 	text-align: center;
 }
+
 	@media screen and (min-width: 520px) {
 	
 	}
@@ -182,16 +188,17 @@ li{
 
 	}
 
-	.slightly-smaller{		font-size: .8em;}
+	.slightly-smaller{		
+		font-size: .8em;
+	}
 	
 /* HEADER, NAV
 --------------------------------------------------------*/
 
 .left{
 	color: #FFF;
-	float: left;
 	width: 100%;
-	height: 60%;
+	min-height: 60%;
 	text-align: center;
 	padding: 100px 0 0 0;
 }
@@ -494,7 +501,7 @@ li{
 		width: 50px;
 		position: absolute;
 		top: 10px;
-		left: 0;
+		left: 50px;
 		
 		animation-name: example;
 		animation-duration: 3s;	
