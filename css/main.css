@@ -183,8 +183,8 @@ li{
 	}
 	
 	.social{
-		margin: 0 20px 0 0;
-		width: 25px;
+		margin: 0 20px -7px 0;
+		height: 25px;
 
 	}
 
@@ -225,7 +225,7 @@ li{
 		}
 		
 		.nameplate{
-			font-size: 4em;
+			font-size: 4.2em;
 		}
 
 		.subtitle{
@@ -577,11 +577,6 @@ li{
   content: "";
   display: table;
   clear: both; }
-
-  
-  .row, .one-half {
-	  border: 1px solid red;
-  }
   
   .right{
 	  float: right;
