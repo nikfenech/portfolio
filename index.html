@@ -86,17 +86,21 @@
 					</div>	
 					
 					<div class="item" style="background-color: #666699;">
+								<!-- Listen I'm going to be straight up honest here I don't know why this happens
+								but unless I keep the CSS in this HTML file, the below divs just disappears when the
+								screen is below a certain width. I don't know why this happens and it took me hours to figure it out.
+								Please send help.-->
    								<style>
 								@keyframes example {
-									from {top: 10px;}
+									from {top: 20px;}
 									to {top: 80px;}
 								}
 									
 								.div1{
-									width: 200px;
+									width: 100px;
 									margin: 0 auto;
 									position: absolute;
-									top: 10px;
+									top: 20px;
 									left: 0;
 									right: 0;
 									animation-name: example;
@@ -108,14 +112,14 @@
 								.div2{
 									border-top-left-radius: 100%;
 									border-top-right-radius: 100%;
-									width: 200px;
-									height: 200px;
+									width: 100px;
+									height: 100px;
 									background-color: white;
 								}
 								
 								.div3{
-									height: 100px;
-									width: 200px;
+									height: 50px;
+									width: 100px;
 									background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6+ */
 									background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
 									background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
@@ -143,13 +147,7 @@
 									</div>
 									<div class="div3"></div>
 								</div>
-								,<!--<div class = "rewengei">
-									<div class="ghost">
-										<div class="eye"></div>
-										<div class="eye"></div>
-									</div>
-									<div class ="tail"></div>	
-								</div>-->
+
 						<a href="frontend.html"><div class="itemNameplate">Front-End Projects</div></a>
 						
 						<div class="tag-row">
