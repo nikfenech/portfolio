@@ -179,8 +179,11 @@ li{
 	.social{
 		margin: 0 20px -6px 0;
 		width: 25px;
+
 	}
 
+	.slightly-smaller{		font-size: .8em;}
+	
 /* HEADER, NAV
 --------------------------------------------------------*/
 
