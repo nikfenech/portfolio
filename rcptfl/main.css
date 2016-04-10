@@ -1,0 +1,216 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Rock+Salt);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Lora);
+@import url(https://fonts.googleapis.com/css?family=Philosopher:700);
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+@import url(https://fonts.googleapis.com/css?family=Dosis:600);
+
+*{
+	margin: 0;
+	padding: 0;	
+}
+
+body, html{
+	width: 100%;
+	height: 100%;
+	
+	font-family: 'Open Sans', sans-serif;
+}
+
+body{
+}
+
+a{
+	text-decoration: none;
+	color: #FFF;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+p{
+	margin: 0;
+}
+
+.couponBox{
+	width: 900px;
+	margin: 0 auto;
+}
+
+.coupon{
+	width: 200px;
+	height: 275px;
+	padding: 10px;
+	margin: 25px;
+	float: left;
+	text-align: center;
+	position: relative;
+}
+
+
+
+.big{
+	font-size: 1.25em;
+}
+
+.bigger{
+	font-size: 2em;
+}
+
+.biggest{
+	font-size: 3em;
+}
+
+.logo{
+	width: 100px;
+	height: 100px;
+	margin: 5px auto;
+	overflow: hidden;
+	border-radius: 100%;
+	font-size: 2rem;
+	background-color: #222;
+	position: relative;
+}
+
+.logoWord{
+	position: absolute;
+	top: 35px;
+	left: 30px;
+}
+
+/* COUPON 1
+----------------------------------------*/
+.c1{
+	text-align: center;
+	border: 3px solid #F5C316;
+	color: #FFF;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #fed136;
+	border-bottom-left-radius: 25%;
+	border-bottom-right-radius: 25%; 
+}
+
+.click{
+	width: 100%;
+	color: #FFF;
+	margin: 20px 0 0 0;
+}
+
+
+/* COUPON 2
+----------------------------------------*/
+.c2{
+	background: linear-gradient(rgba(0, 30, 150, 0.4), rgba(0, 30, 150, 0.6)), url(triangular.png);
+	color: #FFF;
+}
+
+.logo-c2{
+	background-color: white;
+	color: #222;
+	margin-top: 20px;
+}
+
+/* COUPON 3
+----------------------------------------*/
+.c3{
+	background-color: #5DC372;
+	color: #373737;
+	padding: 0;
+	font-family: 'Dosis', sans-serif;
+}
+
+.repad{
+	padding: 20px;
+}
+
+.neu{
+	background-color: #373737;
+	border-top: 2px dashed #5DC372;
+	text-align: center;
+	padding: 10px;
+	position: absolute;
+	bottom: 0;
+	height: 60px;
+	width: 100%;
+}
+
+/* COUPON 4
+----------------------------------------*/
+.c4{
+	position: relative;
+	color: #FFF;
+	background-color: rgba(255,255,255,0.2);
+	border: 1px solid rgba(255,255,255,0.2);
+	border-radius: 2px;
+	box-shadow: 0px 0px 3px rgba(255,255,255,0.7) inset;
+	overflow: hidden;
+}
+
+.c4-backing{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	background-image: linear-gradient(90deg, rgb(26, 188, 156) 25%, rgb(52, 152, 219) 100%);
+	background-image: -moz-linear-gradient(left, rgb(26, 188, 156) 25%, rgb(52, 152, 219) 100%);
+	background-image: -webkit-linear-gradient(left, rgb(26, 188, 156) 25%, rgb(52, 152, 219) 100%);
+	background-image: -o-linear-gradient(left, rgb(26, 188, 156) 25%, rgb(52, 152, 219) 100%);
+	background-image: -ms-linear-gradient(left, rgb(26, 188, 156) 25%, rgb(52, 152, 219) 100%);		
+}
+
+.c4-button{
+	background-color: rgba(255,255,255,0.2);
+	border: 1px solid rgba(255,255,255,0.2);
+	border-radius: 4px;
+	box-shadow: 0px 0px 10px rgba(255,255,255,0.4);
+	padding: 5px;
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}
+
+.c4-head{
+	font-family: 'Rock Salt', sans-serif;
+	color: #FF69B4;
+	font-size: 2rem;
+}
+
+.c4 p{
+}
+
+/* COUPON 5
+----------------------------------------*/
+.c5{
+	padding-top: 35px;
+	border: 2px solid #000;
+	font-family: 'Lora', sans-serif;
+	text-align: center;
+}
+
+.c5 p{
+	margin: 0 0 20px 0;
+}
+
+/* COUPON 6
+----------------------------------------*/
+.c6{
+	background-color: #E51937;
+	font-family: 'Nunito', sans-serif;
+	color: #FFF;
+	border: 1px solid #FFF;
+	box-shadow: 0px 0px 0px 3px #E51937;
+}
+
+.c6-claim{
+	position: absolute;
+	bottom: 20px;
+	width: 100px;
+	left: 50px;
+	border: 1px solid #FFF;
+}
+
+
