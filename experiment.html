@@ -1,0 +1,114 @@
+<head>
+  <link rel="stylesheet" type="text/css" href="custom.css">
+  <link rel="stylesheet" type="text/css" href="homepage.css">
+  <script src="https://cdn.jsdelivr.net/npm/clipboard@1/dist/clipboard.min.js"></script>
+  <script src="https://use.fontawesome.com/a0469c7b9b.js"></script>
+</head>
+<body>
+  <div class="phone">
+    <div class="speaker">
+        <div class="camera"></div>
+    </div>
+  <div class="screen">
+    <div class="screen-over"></div>
+    <div class="screen-shadow"></div>
+    <img src="cs-screen-03.png" class="phone-insert"/>
+  </div>
+    <div class="home-button"></div>
+  </div>
+
+  <style>
+      body {
+        background-color: #B6FA66;
+        width: 100%;
+        height: 100%;
+      }
+
+      .screen {
+        position: relative;
+        border: 1px solid #AAA;
+        width: 360px;
+        height: 640px;
+        background-color: #222;
+      }
+
+      .phone {
+        position: relative;
+        display: table;
+        margin: 50px auto;
+        background-color: #FFF;
+        padding: 10px 5px;
+        border-radius: 10px;
+        border: 2px double #AAA;
+        -webkit-box-shadow: 4px 4px 20px rgba(40,40,40,0.8);
+        -moz-box-shadow:    4px 4px 20px rgba(40,40,40,0.8);
+        box-shadow: 4px 4px 20px rgba(40,40,40,0.8);
+      }
+
+      .speaker {
+        border-radius: 100px;
+        width: 200px;
+        height: 10px;
+        border: 1px solid #AAA;
+        margin: 10px auto;
+        background-color: #d4d4d4;
+        position: relative;
+      }
+
+      .camera {
+        position: absolute;
+        left: -50px;
+        top: -5px;
+        width: 15px;
+        height: 15px;
+        border-radius: 100%;
+        border: 2px double #AAA;
+        position: absolute;
+        background: #d4d4d4;
+      }
+
+      .home-button {
+        border-radius: 10px;
+        width: 100px;
+        height: 25px;
+        margin: 10px auto 0 auto;
+        border: 1px solid #AAA;
+        background-color: #d4d4d4;
+      }
+
+      .screen-over {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 3;
+        background: -moz-linear-gradient(-45deg, rgba(255,255,255,.2) 0%, rgba(255,255,255,0) 100%);
+        background: -webkit-linear-gradient(-45deg, rgba(255,255,255,.2) 0%,rgba(255,255,255,0) 100%);
+        background: linear-gradient(135deg, rgba(255,255,255,.2) 0%,rgba(255,255,255,0) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 );
+      }
+
+      .screen-shadow {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        width: 100%;
+        height: 100%;
+         -moz-box-shadow:    inset 0 0 5px #000;
+         -webkit-box-shadow: inset 0 0 5px #000;
+         box-shadow:         inset 0 0 5px #000;
+      }
+
+      .phone-insert {
+        z-index: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+  </style>
+</body>
+</html>
