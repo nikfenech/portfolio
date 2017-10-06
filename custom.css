@@ -88,12 +88,6 @@ a:hover {
   padding-top: 30px;
 }
 
-.ks-padding-fix {
-}
-
-.lb-padding-fix {
-
-}
 .project-desc {
   padding: 40px 0;
 }
@@ -288,6 +282,11 @@ i {
   margin-right: 15px;
 }
 
+.ive-given-up-trying{
+  text-align: center;
+  margin: 40px 0;
+}
+
 /* Blessed Clearfix */
 
 .clearfix:after {
@@ -374,7 +373,6 @@ i {
 
 .header {
   padding-top: 40px;
-  text-align: right;
 }
 
 .screen img {
@@ -383,6 +381,10 @@ i {
   padding: 0;
 }
 @media screen and (min-width: 720px) {
+  .header{
+    text-align: right;
+  }
+  
   .homepage {
     padding: 40px;
   }
