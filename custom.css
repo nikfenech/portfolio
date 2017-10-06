@@ -56,7 +56,6 @@ a:hover {
 }
 
 /* Homepage */
-
 .name {
   width: 100%;
   padding: 40px;
@@ -70,19 +69,23 @@ a:hover {
 .projects-section{
   width: 100%;
   margin-top: 40px;
+  /*border: 1px solid blue;*/
 }
 
 .projects-section-description {
   width: 100%;
-  padding: 0 40px;
+  padding: 40px;
+  /*border: 1px solid green;*/
 }
 
 .projects-section-image {
   width: 100%;
   padding: 40px;
+  /*border: 1px solid red;*/
 }
 
 .projects-section-image img {
+  display: block;
   width: 100%;
 }
 
@@ -98,7 +101,6 @@ a:hover {
   width: 100%;
   margin: 10px 0;
   background-color: #fff;
-  float: left;
   position: relative;
   overflow: hidden;
 }
@@ -174,8 +176,8 @@ a:hover {
 
 .row img {
   display: block;
-  max-height: 500px;
-  margin: 10px auto;
+  max-height: 300px;
+  margin: 40px auto;
 }
 
 .subtitle {
@@ -402,6 +404,7 @@ i {
 @media screen and (min-width: 720px) {
   .project {
     height: 33%;
+    float: left;
   }
 
   .content {
