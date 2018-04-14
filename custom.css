@@ -387,13 +387,13 @@ i {
   margin: 0;
 }
 
+.homepage {
+  padding: 40px;
+}
+
 @media screen and (min-width: 720px) {
   .header{
     text-align: right;
-  }
-
-  .homepage {
-    padding: 40px;
   }
 
   .project-desc {
