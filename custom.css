@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,700|Muli:700');
-
 /* Global */
+
 *{
   margin: 0;
   padding: 0;
@@ -22,7 +22,7 @@ h1, h2, h3 {
 .project h3 {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 16px;
   margin-bottom: 20px;
 }
 
@@ -53,72 +53,47 @@ a {
 }
 
 a:hover {
-  /*color: rgba(0,0,0,0.8);*/
   text-decoration: none;
 }
 
 /* Homepage */
-.name {
-  width: 30%;
-  height: 100vh;
-  padding: 40px;
-  position: fixed;
-  top: 0;
-  left: 0;
+
+
+.project {
+  margin-bottom: 80px;
+  /*height: 33%;*/
 }
 
-.name i, .name button {
-  margin-top: 20px;
+.projects a {
+  color: rgba(0, 0, 0, 0.8);
 }
 
-/* For all projects-section on the homepage */
-.projects-section{
-  width: 70%;
-  /*height: 100vh;*/
-  margin-top: 40px;
-  float: right;
+.projects a:hover {
+  transition: color 1s;
+  color: rgba(0,0,0,0.5);
 }
 
-.projects-section-description {
-  float: left;
-  width: 70%;
-  padding: 0 40px;
+.project-img {
+  height: 33%;
 }
 
-.projects-section-description h2, .projects-section-description h3 {
-  color: rgba(0,0,0,0.8);
+.project-img img {
+  /*max-width: 80%;*/
+  height: 80%;
+  display: block;
+  margin: 5% auto;
 }
 
-.projects-section-image {
-  float: left;
-  width: 30%;
-  padding: 40px;
-  height: 100%;
-  /*height: 80%;*/
-  /*margin: 40px 0;*/
+.smsav-padding-fix {
+  padding-top: 30px;
 }
 
-.projects-section-image img {
-  width: 100%;
+.project-desc {
+  padding: 40px 0;
 }
 
 .lawbot-homepage {
   margin-top: 40px;
-}
-
-.project {
-  width: 100%;
-  height: 33%;
-  margin: 10px 0;
-  background-color: #fff;
-  float: left;
-  position: relative;
-  overflow: hidden;
-}
-
-
-.content-inner p, .content-inner li {
-  font-size: 18px;
 }
 
 .email{
@@ -130,22 +105,20 @@ a:hover {
   border: none;
 }
 
-/*.one {
-  border: 1px solid #ff4081;
-  border-radius: 5px;
-  color: #ff4081;
-  padding: 2px 4px;
-  font-weight: 700;
-}*/
-
 .email {
   font-weight: 700;
 }
 
-
+.every-other {
+  background-color: #d3d3d3;
+}
 
 .internal-subheader {
   margin: 50px 0;
+}
+
+.name {
+  /* padding-right: 80px; */
 }
 
 .name p {
@@ -166,32 +139,6 @@ a:hover {
   border-bottom: 1px solid #d4d4d4;
 }
 
-.back-button {
-  border: 1px solid #ff4081;
-  border-radius: 4px;
-  color: #ff4081;
-  padding: 5px;
-  margin: 20px auto;
-}
-
-.content-inner {
-  width: 600px;
-  margin: 0 auto 100px auto;
-}
-
-.content-inner h3 {
-  text-align: center;
-  border-bottom: 1px solid rgba(0,0,0,0.8);
-  padding-bottom: 20px;
-  margin: 40px 0;
-}
-
-.content-inner img {
-  width: 90%;
-  margin: 20px auto;
-  display: block;
-}
-
 .full-size-images {
   width:600px;
   background-color: #d4d4d4;
@@ -200,30 +147,15 @@ a:hover {
 
 /* Image layout for internal pages */
 
-.lots-of-images {
-  width: 65%;
-  margin: 0 auto;
-  padding: 40px 20px;
+.inner-images {
+  width: 100%;
   background-color: #d4d4d4;
 }
 
-.few-of-images {
-  width: 43%;
-  margin: 0 auto;
-  padding: 40px 20px;
-  background-color: #d4d4d4;
-}
-
-.heaps-of-images {
-  width: 75%;
-  margin: 0 auto;
-  padding: 40px 20px;
-  background-color: #d4d4d4;
-}
-
-.heaps-of-images img {
-  width: 45%;
-  margin: 20px;
+.row img {
+  display: block;
+  max-height: 300px;
+  margin: 40px auto;
 }
 
 .subtitle {
@@ -262,11 +194,17 @@ iframe {
 .back {
   text-decoration: none;
   text-align: center;
-  border: 1px solid #ff4081;
+  background-color: #ff4081;
+  color: #FFF;
   border-radius: 4px;
   width: 100px;
   padding: 5px 0;
   margin: 40px auto;
+}
+
+.back:hover {
+  background-color: #c0392b;
+  transition: background 1s;
 }
 
 .ks {
@@ -279,12 +217,11 @@ iframe {
 }
 
 .flowchart {
-  margin: -40px auto 40px auto;
+  margin: 40px auto;
   display: block;
 }
 
 .tag {
-  /*border: 1px solid rgba(0,0,0,0.8);*/
   padding: 5px 10px;
   margin-right: 10px;
   margin-top: 10px;
@@ -294,9 +231,25 @@ iframe {
   background-color: #777979;
 }
 
+.inner-tag {
+  border: 1px solid #FFF;
+  padding: 5px 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  display: flex;
+  float: left;
+  color: #FFF;
+  background-color: rgba(255,255,255,0.2);
+}
+
+.tags {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
 .whatever {
   margin: 40px auto;
-  /*border: 1px solid blue;*/
   width: 50%;
 }
 
@@ -316,16 +269,18 @@ iframe {
 
 .about, .skills, .self-pic {
   float: left;
-  /*border: 1px solid #000;*/
-  /*padding: 20px;*/
-
--webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
--moz-box-sizing: border-box;    /* Firefox, other Gecko */
-box-sizing: border-box;         /* Opera/IE 8+ */
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
 }
 
 i {
   margin-right: 15px;
+}
+
+.ive-given-up-trying{
+  text-align: center;
+  margin: 40px 0;
 }
 
 /* Blessed Clearfix */
@@ -341,20 +296,34 @@ i {
   position: relative;
   width: 100%;
   overflow: hidden;
-  padding: 120px 0 120px 0;
-  margin-bottom: 80px;
+  padding: 180px 0 40px 0;
+  text-align: center;
 }
 
+.bingo p {
+  color: #FFF;
+}
+
+.role {
+  border: 1px solid #FFF;
+  padding: 10px;
+  margin: 40px;
+}
+
+
 .hbg {
-    background: url("bg-bg-bg.png") no-repeat center;
-    /*background-color: #34984F;*/
-    /*filter: blur(5px);*/
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     z-index: -1;
+    filter: brightness(30%);
+}
+
+.hbg img {
+  min-width: 100%;
+  height: 100%;
 }
 
 .bg-color-1 {
@@ -382,4 +351,62 @@ i {
   font-size: 48px;
   font-weight: 700;
   color: #FFF;
+}
+
+.hypothetical-tool-tag {
+  background-color: #FFF;
+  color: #ff4081;
+  border-radius: 50px;
+  display: flex;
+  float: left;
+  padding: 5px 10px;
+  margin: 0 10px;
+}
+
+.content {
+  padding: 40px;
+}
+
+.header {
+  padding-top: 40px;
+}
+
+.screen img {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.tooltip {
+  border-radius: 5px;
+  padding: 0;
+  height: 20px;
+}
+
+.tooltip-inner {
+  margin: 0;
+}
+
+.homepage {
+  padding: 40px;
+}
+
+@media screen and (min-width: 720px) {
+  .header{
+    text-align: right;
+  }
+
+  .project-desc {
+    padding: 0 120px 40px 40px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .content {
+    border-left: 1px solid #BFBFBF;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+
 }
